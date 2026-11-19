@@ -1,0 +1,7 @@
+.env
+data/
+avatars/
+.venv/
+__pycache__/
+.pytest_cache/
+CLAUDE.local.md

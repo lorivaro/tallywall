@@ -1,0 +1,5 @@
+[
+  {"UID": "drink-wijn", "rank": 1, "price": 750, "name": "Wijn", "color": "#B5EAD7", "vat": 0},
+  {"UID": "drink-bier", "rank": 1, "price": 350, "name": "Bier", "color": "#C7CEEA", "vat": 0},
+  {"UID": "drink-fris", "rank": 0, "price": 250, "name": "Fris", "color": "#FFDAC1", "vat": 9}
+]

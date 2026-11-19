@@ -1,0 +1,14 @@
+.env
+.env.*
+data/
+avatars/
+docs/
+tests/
+.git/
+.venv/
+.claude/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+compose*.yaml
+Dockerfile

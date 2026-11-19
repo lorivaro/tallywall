@@ -1,0 +1,27 @@
+# tallywall — runs behind an existing Caddy container on a shared Docker network.
+# See README.md → Deploy.
+services:
+  tallywall:
+    build: .
+    image: tallywall:local
+    container_name: tallywall
+    restart: unless-stopped
+    env_file: .env
+    # Must be able to write ./data (owner of that directory on the host).
+    user: "${UID:-1000}:${GID:-1000}"
+    volumes:
+      - ./data:/data              # SQLite tally log + outbox: back this up
+      - ./avatars:/avatars:ro     # optional {personUid}.jpg photos
+    networks:
+      - caddy
+    # No published ports: Caddy reaches the app as http://tallywall:8000.
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+networks:
+  caddy:
+    external: true
+    name: ${CADDY_NETWORK:-caddy}

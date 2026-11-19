@@ -1,0 +1,6 @@
+[
+  {"UID": "person-admin", "alias": "Admin", "isGroup": false, "rank": 1,
+   "stand": 3, "total": 10, "balance": -1050, "totalBalance": -3500},
+  {"UID": "person-bob", "alias": "Bob", "isGroup": false, "rank": 2,
+   "stand": 0, "total": 0, "balance": 0, "totalBalance": 0}
+]

@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {"UID": "grp-1", "active": 1, "color": "#14b8a6", "name": "Huis", "rank": 0}
+  ],
+  "tablet": {
+    "items": [
+      {"name": "Bier", "color": "#C7CEEA", "UID": "drink-bier", "avatar_ID": null},
+      {"name": "Wijn", "color": "#B5EAD7", "UID": "drink-wijn", "avatar_ID": null}
+    ]
+  },
+  "eatingLists": [],
+  "settings": {
+    "name": "x1y2z3settingsname",
+    "versionHash": "abc123",
+    "usersPrivacyMode": false,
+    "tabletShowLifetimeAmounts": true,
+    "tabletLockCode": "4321",
+    "disableScreensaver": false
+  },
+  "tablets": [],
+  "info": {
+    "UID": "house-test",
+    "name": "Testhuis",
+    "street": "Teststraat",
+    "number": "1",
+    "postal": "1234AB",
+    "city": "Teststad",
+    "inviteToken": "invite-secret-token",
+    "type": "turf"
+  },
+  "checkout": {"balance": 0},
+  "persons": [
+    {
+      "UID": "person-bob", "rank": 2, "color": "#3b82f6", "alias": "Bob",
+      "accepted": true, "isThisUser": false, "isManager": false, "houseRole": "RESIDENT",
+      "displayName": "Bob B", "email": "bob@example.invalid", "username": "bobby",
+      "phone": "+31600000002", "hasPhoneRegistered": true, "hasPass": false,
+      "moveInDate": "2026-11-17T22:23:30.000Z"
+    },
+    {
+      "UID": "person-admin", "rank": 1, "color": "#84cc16", "alias": "Admin",
+      "accepted": true, "isThisUser": true, "isManager": true, "houseRole": "MANAGER",
+      "displayName": "Admin", "email": "admin@example.invalid", "username": "admin",
+      "hasPhoneRegistered": false, "hasPass": false,
+      "moveInDate": "2026-11-17T23:40:26.000Z"
+    }
+  ]
+}

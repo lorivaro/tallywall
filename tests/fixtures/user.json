@@ -1,0 +1,9 @@
+{
+  "user": {
+    "uid": "person-admin", "displayName": "Admin", "firstName": null, "lastName": null,
+    "email": "admin@example.invalid", "bankAccountHolder": null, "bankIban": null,
+    "phone": null, "lang": "nl"
+  },
+  "checkout": {"balance": 0},
+  "avatarAsset": null
+}
